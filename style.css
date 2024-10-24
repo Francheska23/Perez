@@ -398,7 +398,7 @@ p::selection {
     color: white;
 }
 
-@media (min-width: 320px) and (max-width: 600px) {
+@media (min-width: 480px) and (max-width: 600px) {
     main .explore {
         margin: 20px 10px;
         padding: 15px;
