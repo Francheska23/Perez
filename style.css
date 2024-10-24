@@ -555,9 +555,29 @@ p::selection {
   .toggle1:checked + label .image-description1 {
     display: block;
   }
-  
-  /* Responsive Design */
-  
+
+  .explore1 {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: justify;
+    border: 1px solid #9d4edd;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s; 
+}
+
+.explore1:hover {
+    transform: translateY(-5px); 
+}
+
+.explore h2 {
+    font-size: 28px;
+    color: #9d4edd;
+    margin-bottom: 20px;
+}
+
  @media (min-width: 480px) and (max-width: 600px)  {
     .image-row1 {
       flex-direction: column;
