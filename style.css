@@ -89,7 +89,7 @@ header h1 span {
     position: fixed;
     top: 80px;
     right: -100%;
-    width: 250px;
+    width: 200px;
     height: calc(100vh - 80px);
     background-color: #ffffff;
     transition: right 0.5s ease;
